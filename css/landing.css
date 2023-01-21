@@ -1,0 +1,70 @@
+/* HOME SECTION */
+video
+{
+    opacity: 55%;
+    z-index: -100;
+
+    position:fixed;
+    height: 100%; 
+}
+/* when wider than 16/9 */
+@media (min-aspect-ratio: 16/9) {
+    video {
+        height: auto;
+        width: 100%; 
+    }
+}
+h1
+{
+    font-size: 4rem;
+    font-weight: 800;
+}
+h2
+{
+    font-weight: 500;
+    font-size: 2rem;
+    letter-spacing: 2.5rem;
+    text-indent: 1.5rem;
+}
+button
+{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    padding: .65rem 2.5rem;
+}
+button:hover
+{
+    background-color: white;
+    color: var(--dark-color);
+    cursor: pointer;
+}
+
+@media(max-width:850px)
+{
+    h1
+    {
+        font-size: 180%;
+    }
+    h2
+    {
+        font-size: 70%;
+        letter-spacing:1.5rem;
+    }
+    button
+    {
+        margin-top: .5rem;
+        font-size: .75rem;
+        font-weight: 600;
+
+        padding: .65rem 2.5rem;
+    }
+    .container
+    {
+        height: 75vh;
+    }
+}
+
+/* ABOUT ME SECTION */
+
