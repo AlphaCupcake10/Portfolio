@@ -5,10 +5,11 @@
     --glass-color:#15192590;
     --accent-color:#3373fc;
     --transparent-color:#ffffff00;
+    --white-color:#ffffff;
 }
 *
 {
-    color: white;
+    color: var(--white-color);
     margin: 0px;
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
@@ -38,7 +39,7 @@
 .outline
 {
     background: none;
-    border: white 3.5px solid;
+    border: var(--white-color) 3.5px solid;
 }
 .rounded
 {
