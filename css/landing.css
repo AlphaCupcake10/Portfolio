@@ -4,7 +4,7 @@ video
     opacity: 55%;
     z-index: -100;
 
-    position:fixed;
+    position:absolute;
     height: 100%; 
 }
 /* when wider than 16/9 */
@@ -14,12 +14,12 @@ video
         width: 100%; 
     }
 }
-h1
+.front h1
 {
     font-size: 4rem;
     font-weight: 800;
 }
-h2
+.front h2
 {
     font-weight: 500;
     font-size: 2rem;
@@ -43,11 +43,11 @@ button:hover
 
 @media(max-width:850px)
 {
-    h1
+    .front h1
     {
         font-size: 180%;
     }
-    h2
+    .front h2
     {
         font-size: 70%;
         letter-spacing:1.5rem;
@@ -68,3 +68,55 @@ button:hover
 
 /* ABOUT ME SECTION */
 
+.card
+{
+    padding: 3rem;
+    box-sizing: border-box;
+    height: 25rem;
+    width: 50rem;
+
+    border-radius: 2rem;
+    border: .2rem solid rgba(255, 255, 255, 0.093);
+    
+    background-color: var(--glass-color);
+
+    backdrop-filter: blur( 16.5px );
+    -webkit-backdrop-filter: blur( 16.5px );
+}
+.card img
+{
+    height: 100%;
+    width: auto;
+}
+.about-me-content
+{
+    height: 100%;
+    width: auto;
+    align-items:flex-start;
+    padding: 2rem;
+}
+.about-me-content h1
+{
+    font-weight: 900;
+    font-size: 4rem;
+}
+.about-me-content h2
+{
+    font-weight: 900;
+    font-size: 2.25rem;
+    opacity: .21;
+    margin: -0.85rem 0rem;
+}
+.about-me-content h3
+{
+    margin: -0.5rem 0rem;
+    font-weight: 900;
+    color: var(--accent-color);
+}
+.about-me-content p
+{
+    margin: 1rem 0rem;
+    font-weight: 200;
+    font-size: 1.2rem;
+    opacity: .7;    
+}

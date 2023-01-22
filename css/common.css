@@ -2,6 +2,7 @@
 :root
 {
     --dark-color:#151925;
+    --glass-color:#15192590;
     --accent-color:#3373fc;
     --transparent-color:#ffffff00;
 }
@@ -57,5 +58,5 @@
 }
 .shadow
 {
-    box-shadow: 0px 24px 83px -8px rgba(0,0,0,0.2);
+    box-shadow: 0px 24px 83px -8px rgba(0,0,0,0.4);
 }
