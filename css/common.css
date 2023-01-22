@@ -4,6 +4,7 @@
     --dark-color:#151925;
     --glass-color:#15192590;
     --accent-color:#3373fc;
+    --dark-accent-color:#2755b8;
     --transparent-color:#ffffff00;
     --white-color:#ffffff;
 }
@@ -44,10 +45,6 @@
 .rounded
 {
     border-radius: 10rem;
-}
-.container
-{
-    height: 100vh;
 }
 .transition
 {

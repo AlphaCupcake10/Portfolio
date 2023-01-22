@@ -35,7 +35,10 @@
     color: var(--accent-color);
     cursor: pointer;
 }
-
+.nav-item:active
+{
+    transform: scale(.95);
+}
 .hamburger-container
 {
     display: none;
