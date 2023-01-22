@@ -1,7 +1,7 @@
 /* HOME SECTION */
 video
 {
-    opacity: .4;
+    opacity: 1;
     position: absolute;
     z-index: -100;
 
@@ -15,6 +15,7 @@ video
 .front
 {
     height: 100vh;
+    background-color: rgba(0, 0, 0, 0.668);
 }
 
 .front h1
@@ -69,23 +70,24 @@ button:active
 }
 
 /* ABOUT ME SECTION */
+
 .about-me
 {
     box-sizing: border-box;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
-.card
+.about-me
 {
     margin: 2rem;
     display: flex;
     flex-wrap: wrap;
     /* background-color: red; */
 }
-.card img
+.about-me img
 {
     height: 25rem;
 }
-.card-content
+.about-me-content
 {
     /* background-color: rebeccapurple; */
     align-items: start;
@@ -93,68 +95,66 @@ button:active
     
     width: 25rem;
 }
-.card-content h1
+.about-me-content h1
 {
     font-weight: 900;
     font-size: 4rem;
 }
-.card-content h2
+.about-me-content h2
 {
     font-weight: 900;
     font-size: 2.25rem;
     opacity: .21;
     margin: 0rem 0rem -0.85rem 0rem;
 }
-.card-content h3
+.about-me-content h3
 {
     margin:-0.5rem 0rem 0rem 0rem ;
     font-weight: 900;
     color: var(--accent-color);
 }
-.card-content p
+.about-me-content p
 {
     margin: 1rem 0rem 0rem 0rem;
     font-weight: 200;
     font-size: 1.2rem;
     opacity: .7;    
 }
-.card-content button
+.about-me-content button
 {
     margin: 1rem 0rem 0rem 0rem;
     border: none;
     background-color: var(--accent-color);   
 }
-.card-content button:hover
+.about-me-content button:hover
 {
-    border: none;
-    background-color: var(--dark-accent-color);
     color: var(--white-color);
+    filter: brightness(60%);
 }
 @media(max-width:500px)
 {
-    .card img
-    {
+    .card img {
         height: 18rem;
     }
-    .card-content{
+    .about-me-content{
         width: 100%;
     }
-    .card-content h1
+    .about-me-content h1
     {
         font-size: 2rem;
     }
-    .card-content h2
+    .about-me-content h2
     {
         font-size: 1.25rem;
         margin: 0rem 0rem -0.425rem 0rem;
     }
-    .card-content h3
+    .about-me-content h3
     {
         font-size: .8rem;
         margin:-0.25rem 0rem 0rem 0rem ;
         color: var(--accent-color);
     }
-    .card-content p
+    .about-me-content p
     {
         margin: 1rem 0rem 0rem 0rem;
         font-size: 1rem;
