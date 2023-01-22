@@ -1,7 +1,6 @@
 .navbar
 {
     position: fixed;
-    z-index: 10;
 
     display: flex;
     justify-content: space-between;
@@ -29,11 +28,6 @@
 {
     padding: 1rem;
     transition: all 200ms ease-in-out;
-}
-/* top class is active when scrol-y = 0 */
-.top > .nav-menu:not(.active) >.nav-item
-{
-    padding: 2rem;
 }
 .nav-item:hover
 {
@@ -66,9 +60,9 @@
     {
         padding: 1rem;
     }
-    .top > .nav-menu:not(.active) >.nav-item
+    .navbar
     {
-        padding: 0rem;
+        padding:0rem 1rem;
     }
     .hamburger-container
     {
@@ -103,6 +97,6 @@
     .nav-menu.active
     {
         opacity: 1;
-        top: 6rem;
+        top: 4rem;
     }
 }
