@@ -62,6 +62,10 @@
     transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
 }
+.top .bar
+{
+    background-color: var(--perma-white-color);
+}
 @media(max-width:850px)
 {
     .navbar.top
@@ -94,7 +98,7 @@
     }
     .nav-menu
     {
-        z-index: 0;
+        z-index: -10;
         position: fixed;
         /* top: 4rem; */
         flex-direction: column;
