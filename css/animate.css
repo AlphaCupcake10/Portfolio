@@ -1,7 +1,7 @@
 .animate
 {
     transition: all 500ms cubic-bezier(.89,.46,.06,.92);
-    transform: translateX(-100%);
+    transform: translateX(-80%);
     filter: opacity(0);
 }
 .animate.show
