@@ -2,18 +2,21 @@
 :root
 {
     --dark-color:#151925;
-    --glass-color:#15192590;
     --accent-color:#3373fc;
-    --dark-accent-color:#2755b8;
-    --transparent-color:#ffffff00;
     --white-color:#ffffff;
+    --perma-white-color:#ffffff;
+    --perma-dark-color:#151925;
 }
 *
 {
-    color: var(--white-color);
     margin: 0px;
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
+}
+html
+{
+    scroll-behavior: smooth;
+    color: var(--white-color);
 }
 .dark-color
 {
@@ -40,11 +43,6 @@
 .flex.col
 {
     flex-direction: column;
-}
-.outline
-{
-    background: none;
-    border: var(--white-color) 3.5px solid;
 }
 .rounded
 {
@@ -107,4 +105,20 @@
     {
         padding: 0;
     }
+}
+
+button:hover
+{
+    background-color: var(--perma-white-color);
+    color: var(--perma-dark-color);
+    cursor: pointer;
+}
+button:active
+{
+    transform: scale(.9);
+}
+a
+{
+    text-decoration: none;
+    color: inherit;
 }

@@ -1,14 +1,13 @@
 .animate
 {
-    opacity: 0 !important;
-    transition: all 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: all 500ms cubic-bezier(.89,.46,.06,.92);
     transform: translateX(-100%);
-    /* filter: blur(10px); */
+    filter: opacity(0);
 }
 .animate.show
 {
+    filter: opacity(1);
     transform: translateX(0);
-    opacity: 1 !important;
 }
 .animate.delay-1
 {

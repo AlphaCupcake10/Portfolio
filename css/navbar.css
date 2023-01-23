@@ -21,6 +21,10 @@
 {
     padding: 2rem 4rem 2rem 4rem;
 }
+.navbar.top > .nav-menu
+{
+    color: var(--perma-white-color);
+}
 .navbar img
 {
     height: 2rem;

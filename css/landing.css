@@ -14,8 +14,9 @@ video
 }
 .front
 {
+    color: var(--perma-white-color);
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.668);
+    background-color: rgba(0, 0, 0, 0.668);/* for dimming the video */
 }
 
 .front h1
@@ -37,16 +38,15 @@ button
     font-weight: 800;
 
     padding: .8rem 2.5rem;
+    
+    border: var(--perma-white-color) 3.5px solid;
+    background: none;
+    color: var(--perma-white-color);
 }
-button:hover
+.front button:hover
 {
-    background-color: var(--white-color);
-    color: var(--dark-color);
-    cursor: pointer;
-}
-button:active
-{
-    transform: scale(.9);
+    background-color: var(--perma-white-color);
+    color: var(--perma-dark-color);
 }
 @media(max-width:850px)
 {
@@ -113,7 +113,7 @@ button:active
 .about-me-content p
 {
     margin: 1rem 0rem 0rem 0rem;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 1.2rem;
     opacity: .7;    
 }
@@ -125,7 +125,7 @@ button:active
 }
 .about-me-content button:hover
 {
-    color: var(--white-color);
+    color: var(--perma-white-color);
     filter: brightness(60%);
 }
 @media(max-width:500px)

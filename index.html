@@ -9,18 +9,21 @@
     <link rel="stylesheet" href="css/landing.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script src="javascript/navbar.js" defer></script>
     <script src="javascript/intersection.js" defer></script>
+    <script src="javascript/theme.js" defer></script>
 </head>
 <body class="dark-color">
     <header>
         <div class="navbar top">
             <img class="nav-item flex" src="Resouces/Logo.png">
             <div class="flex nav-menu">
-                <div class="nav-item flex">CONTACT</div>
-                <div class="nav-item flex">MY WORK</div>
-                <div class="nav-item flex">ABOUT ME</div>
-                <div class="nav-item flex">HOME</div>
+                <div class="nav-item flex" id="theme-btn"><span class="material-icons">dark_mode</span></div>
+                <a class="nav-item flex">CONTACT</a>
+                <a class="nav-item flex">MY WORK</a>
+                <a class="nav-item flex" href="#about-me">ABOUT ME</a>
+                <a class="nav-item flex" href="#home">HOME</a>
             </div>
             <div class="hamburger-container flex">
                 <div class="hamburger">
@@ -32,15 +35,15 @@
         </div>
     </header>
     <main>
-        <div class="front flex col">
+        <div class="front flex col" id="home">
             <video autoplay loop muted plays-inline>
                 <source src="Resouces/Banner.mp4" type="video/mp4">
             </video>
             <h2>THIS IS</h2>
             <h1>ALPHACUPCAKE10</h1>
-            <button class="outline rounded transition">EXPLORE</button>
+            <button class="outline rounded transition" onclick="location.href='#about-me'">EXPLORE</button>
         </div>
-        <div class="container">
+        <div class="container" id="about-me">
             <h1 class="section-title animate repeat">ABOUT ME</h1>
             <div class="about-me flex">
                 <img src="Resouces/Me.png" style="z-index: 100;">
@@ -57,6 +60,8 @@
         <h1 class="section-title animate repeat">SKILLS</h1>
         </div>
     </main>
-    <footer class="flex accent-color">Designed and Developed by AlphaCupcake10 2023 ©</footer>
+    <footer class="flex accent-color">
+        Designed and Developed by AlphaCupcake10 2023 ©
+    </footer>
 </body>
 </html>
