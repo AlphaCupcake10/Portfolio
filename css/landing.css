@@ -75,9 +75,6 @@ button:active
 {
     box-sizing: border-box;
     /* min-height: 100vh; */
-}
-.about-me
-{
     margin: 2rem;
     display: flex;
     flex-wrap: wrap;
