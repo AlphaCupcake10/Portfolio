@@ -1,6 +1,8 @@
 
 document.addEventListener("scroll",onScroll);
 let navbar = document.getElementsByClassName("navbar")[0];
+let repeat = document.querySelectorAll(".animate");
+
 function onScroll(event)
 {
     let scroll = document.documentElement.scrollTop;
@@ -10,6 +12,9 @@ function onScroll(event)
         navbar.classList.remove("dark-color");
         navbar.classList.remove("shadow");
         navbar.classList.add("top");
+        repeat.forEach((val)=>{
+            val.classList.remove('show');
+        })
     }
     else
     {
