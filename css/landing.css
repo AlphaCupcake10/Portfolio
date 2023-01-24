@@ -178,3 +178,19 @@ video
     transition: all 800ms cubic-bezier(.89,.46,.06,.92);
     transform: scaleX(1); 
 }
+
+@media(max-width:500px)
+{
+    .skill-module > .skill-title
+    {
+        font-size: 1.5rem;
+    }
+    .skill-module > .skill-bar > .skill-bar-title
+    {
+        font-size: .8rem;
+    }
+    .skill-module
+    {
+        padding: 1rem;
+    }
+}

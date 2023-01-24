@@ -5,12 +5,23 @@ const allSkills =
         "LIGHTING & COMPOSITION":70,
         "ANIMATION":85
     },
-    "WEB DEVELOPMENT":{
+    'WEB DEVELOPMENT':{
         "HTML":70,
         "CSS":60,
         "JAVASCRIPT":30
+    },
+    'VIDEO':{
+        "EDITING":50,
+        "MOTION GRAPHICS":85,
+        "VFX":40
+    },
+    'OTHER SKILLS':{
+        "UI/UX DESIGN":60,
+        "GAME DESIGN":80,
+        "DSA":40
     }
 }
+let skillCount = 1;
 function AddSkillModule(title,progressObj)
 {
     function createElement(tag,className,parent)
@@ -25,6 +36,8 @@ function AddSkillModule(title,progressObj)
     }
     
     const moduleObj = createElement("div","skill-module",skillsContainer);
+    moduleObj.classList.add("animate");
+    moduleObj.classList.add(`delay-${skillCount++}`);
     createElement("div","skill-title",moduleObj).innerHTML = title;
     for(const key of Object.keys(progressObj))
     {

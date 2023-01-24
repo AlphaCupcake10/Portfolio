@@ -1,10 +1,10 @@
 .container
 {
-    transition: all 800ms cubic-bezier(.89,.46,.06,.92);
+    transition: all 800ms cubic-bezier(.9,0,.06,1);
 }
 .animate
 {
-    transition: all 800ms cubic-bezier(.89,.46,.06,.92);
+    transition: all 800ms cubic-bezier(.9,0,.06,1);
     transform: translateX(-80%);
     filter: opacity(0);
 }
@@ -32,6 +32,10 @@
 .animate.delay-5
 {
     transition-delay: 600ms;
+}
+.animate.delay-6
+{
+    transition-delay: 700ms;
 }
 
 @media(prefers-reduced-motion)
