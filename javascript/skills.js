@@ -38,6 +38,7 @@ function AddSkillModule(title,progressObj)
     const moduleObj = createElement("div","skill-module",skillsContainer);
     moduleObj.classList.add("animate");
     moduleObj.classList.add(`delay-${skillCount++}`);
+    moduleObj.classList.add(`shadow`);
     createElement("div","skill-title",moduleObj).innerHTML = title;
     for(const key of Object.keys(progressObj))
     {

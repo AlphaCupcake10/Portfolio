@@ -30,6 +30,7 @@ html
 }
 .accent-color
 {
+    color: var(--perma-white-color);
     background-color: var(--accent-color);
 }
 .transparent-color
