@@ -1,6 +1,10 @@
+:root
+{
+    --baseDelay:500ms;
+}
 .animate
 {
-    transition: all 500ms cubic-bezier(.89,.46,.06,.92);
+    transition: all 800ms cubic-bezier(.89,.46,.06,.92);
     transform: translateX(-80%);
     filter: opacity(0);
 }

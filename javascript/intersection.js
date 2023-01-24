@@ -7,7 +7,7 @@ const observer = new IntersectionObserver((entries) => {
         }
         else
         {
-            // if(entry.target.classList.contains("repeat"))
+            if(entry.target.classList.contains("repeat"))
                 entry.target.classList.remove('show');
         }
     });
