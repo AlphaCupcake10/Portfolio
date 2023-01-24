@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 :root
 {
+    --border-color:#ffffff1a;
     --dark-color:#151925;
     --accent-color:#3373fc;
+    --accent-color-dark:#234da8;
     --white-color:#ffffff;
     --perma-white-color:#ffffff;
     --perma-dark-color:#151925;
@@ -97,28 +99,52 @@ html
 }
 .container
 {
-    padding: 2rem 10rem;
+    padding: 2rem 5rem;
 }
-@media(max-width:500px)
+@media(max-width:600px)
 {
     .container
     {
         padding: 0;
     }
 }
-
-button:hover
-{
-    background-color: var(--perma-white-color);
-    color: var(--perma-dark-color);
-    cursor: pointer;
-}
-button:active
-{
-    transform: scale(.9);
-}
 a
 {
     text-decoration: none;
     color: inherit;
+}
+
+.button
+{
+    font-size: 1rem;
+    font-weight: 800;
+    border-radius: 2rem;
+    
+    margin-top: 1rem;
+    padding: .8rem 2.5rem;
+
+    transition: all .3s ease-in-out;
+}
+.button:active
+{
+    transform: scale(.9);
+}
+.button.outline
+{
+    border: 3px solid var(--perma-white-color);
+    color: var(--perma-white-color);
+}
+.button.outline:hover
+{
+    color: var(--perma-dark-color);
+    background-color: var(--perma-white-color);
+}
+.button.accent
+{
+    background-color: var(--accent-color);
+    color: var(--perma-white-color);
+}
+.button.accent:hover
+{
+    background-color: var(--accent-color-dark);
 }

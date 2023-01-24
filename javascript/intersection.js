@@ -14,3 +14,5 @@ const observer = new IntersectionObserver((entries) => {
 });
 const animatedElements = document.querySelectorAll(".animate");
 animatedElements.forEach((el) => observer.observe(el));
+const bars = document.querySelectorAll(".skill-bar-meter-fill");
+bars.forEach((el) => observer.observe(el));

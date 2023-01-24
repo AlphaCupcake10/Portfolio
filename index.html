@@ -12,8 +12,9 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script src="javascript/navbar.js" defer></script>
-    <script src="javascript/intersection.js" defer></script>
     <script src="javascript/theme.js" defer></script>
+    <script src="javascript/skills.js" defer></script>
+    <script src="javascript/intersection.js" defer></script>
 </head>
 <body class="dark-color">
     <header>
@@ -42,7 +43,7 @@
             </video>
             <h2>THIS IS</h2>
             <h1>ALPHACUPCAKE10</h1>
-            <button class="outline rounded transition" onclick="location.href='#about-me'">EXPLORE</button>
+            <div class="button outline" onclick="location.href='#about-me'">EXPLORE</div>
         </div>
         <div class="container" id="about-me">
             <h1 class="section-title animate">ABOUT ME</h1>
@@ -53,12 +54,14 @@
                     <h1 class="animate delay-2">LAKSHMAN</h1>
                     <h3 class="animate delay-3">A.K.A ALPHACUPCAKE10</h3>
                     <p class="animate delay-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium non accusamus tempora cumque id totam, molestiae dolores</p>
-                    <button class="outline rounded transition"  onclick="window.open('https://alphacupcake10.artstation.com/')">VIEW WORK</button>
+                    <div class="button accent"  onclick="window.open('https://alphacupcake10.artstation.com/')">VIEW WORK</div>
                 </div>
             </div>
         </div>
-        <div class="container">
-        <h1 class="section-title animate">SKILLS</h1>
+        <div class="container" id="skills">
+            <h1 class="section-title animate">SKILLS</h1>
+            <div class="skills-container">
+            </div>
         </div>
     </main>
     <footer class="flex accent-color">
