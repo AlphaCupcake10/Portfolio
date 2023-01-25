@@ -1,5 +1,6 @@
 .navbar
 {
+    user-select:none;
     z-index: 1000;
     position: fixed;
     
@@ -14,7 +15,7 @@
 }
 .nav-menu
 {
-    transition: all 800ms cubic-bezier(.9,0,.06,1);
+    transition: all 800ms var(--cubic-bezier);
 }
 /* top class is active when scrol-y = 0 */
 .navbar.top

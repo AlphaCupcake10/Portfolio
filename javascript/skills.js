@@ -35,11 +35,11 @@ function AddSkillModule(title,progressObj)
         return temp;
     }
     
-    const moduleObj = createElement("div","skill-module",skillsContainer);
+    const moduleObj = createElement("div","card",skillsContainer);
     moduleObj.classList.add("animate");
     moduleObj.classList.add(`delay-${skillCount++}`);
     moduleObj.classList.add(`shadow`);
-    createElement("div","skill-title",moduleObj).innerHTML = title;
+    createElement("div","card-title",moduleObj).innerHTML = title;
     for(const key of Object.keys(progressObj))
     {
         const skillBar = createElement("div","skill-bar",moduleObj);
@@ -50,7 +50,7 @@ function AddSkillModule(title,progressObj)
     }
 }
 
-const skillsContainer = document.querySelector(".skills-container");
+const skillsContainer = document.querySelector(".cards-container");
 for(const key of Object.keys(allSkills))
 {
     AddSkillModule(key,allSkills[key]);
