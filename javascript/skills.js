@@ -50,7 +50,7 @@ function AddSkillModule(title,progressObj)
     }
 }
 
-const skillsContainer = document.querySelector(".cards-container");
+const skillsContainer = document.querySelector("#skills-container");
 for(const key of Object.keys(allSkills))
 {
     AddSkillModule(key,allSkills[key]);
