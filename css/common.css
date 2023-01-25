@@ -16,6 +16,14 @@
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
 }
+main
+{
+    background:radial-gradient(rgba(255,255,255,.035) 8%,transparent 8%);
+
+    background-position: 0% 0%;
+    background-size: 5vmin 5vmin;
+    transition: background-position 1s var(--cubic-bezier);
+}
 html
 {
     scroll-behavior: smooth;
@@ -32,10 +40,6 @@ html
 .accent-color
 {
     color: var(--perma-white-color);
-    background-color: var(--accent-color);
-}
-.transparent-color
-{
     background-color: var(--accent-color);
 }
 .flex
