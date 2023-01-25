@@ -18,7 +18,7 @@
 }
 main
 {
-    background:radial-gradient(rgba(255,255,255,.035) 8%,transparent 8%);
+    background:radial-gradient(rgba(255,255,255,.07) 8%,transparent 8%);
 
     background-position: 0% 0%;
     background-size: 5vmin 5vmin;
