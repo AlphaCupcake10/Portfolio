@@ -121,11 +121,21 @@ footer
     height: 4rem;
     width: 100%;
 }
+footer .subtext
+{
+    padding-top: .4rem;
+    font-size: .7rem;
+}
 @media(max-width:850px)
 {
     footer
     {
         font-size: .7rem;
         height: 3rem;
+    }
+    footer .subtext
+    {
+        padding-top: .4rem;
+        font-size: .49rem;
     }
 }
