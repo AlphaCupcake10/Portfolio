@@ -37,7 +37,7 @@ let main = document.getElementsByTagName("main")[0];
 let BGcounter = 0;
 let BGAnim = setInterval(() => {
     main.style.backgroundPosition = `-${BGcounter++}0% 0%`;
-    console.log(main.style.backgroundPosition);
+    // console.log(main.style.backgroundPosition);
 }, 2000);
 setTimeout(() => {
     clearInterval(BGAnim);

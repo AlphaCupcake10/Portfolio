@@ -18,6 +18,7 @@
 }
 main
 {
+    overflow-x: hidden;/* for right side animations to work */
     background:radial-gradient(rgba(255,255,255,.07) 8%,transparent 8%);
 
     background-position: 0% 0%;
@@ -182,12 +183,8 @@ a
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 5rem;
 }
-.card.center:hover
-{
-    letter-spacing: .5rem;
-}
-
 .card .background
 {
     top: 0;

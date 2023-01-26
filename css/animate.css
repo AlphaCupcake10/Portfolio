@@ -8,6 +8,10 @@
     transform: translateX(-80%);
     filter: opacity(0);
 }
+.animate.right
+{
+    transform: translateX(80%);
+}
 .animate.show
 {
     filter: opacity(1);
