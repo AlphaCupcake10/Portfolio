@@ -114,9 +114,9 @@
     }
 }
 
-.lightTheme .logo
+.lightTheme div:not(.top) .logo
 {
-    filter: invert(70%);
+    filter: invert(100%);
 }
 
 /* Footer */
