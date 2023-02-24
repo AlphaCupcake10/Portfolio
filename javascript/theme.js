@@ -1,4 +1,5 @@
 var root = document.querySelector(':root');
+var body = document.querySelector('body');
 var rootStyle = getComputedStyle(root);
 
 let darkTheme = true;
@@ -14,6 +15,7 @@ function toggleTheme()
     root.style.setProperty('--white-color', (darkTheme)?white:dark);
     root.style.setProperty('--dark-color', (darkTheme)?dark:white);
     
+    body.classList.toggle("lightTheme")
     return darkTheme;
 }
 document.getElementById("theme-btn").addEventListener("click",function()

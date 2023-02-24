@@ -114,6 +114,11 @@
     }
 }
 
+.lightTheme .logo
+{
+    filter: invert(70%);
+}
+
 /* Footer */
 footer
 {
