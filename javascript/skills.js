@@ -1,25 +1,25 @@
 const allSkills = 
 {
+    'LIBRARIES & FRAMEWORKS':{
+        "REACT":50,
+        "REACT THREE FIBER | THREEJS":70,
+        "TAILWIND CSS":80
+    },
+    'DESIGN':{
+        "CSS":80,
+        "TYPOGRAGPY":80,
+        "COLOR THEORY":90
+    },
     "3D DESIGN":{
         "3D MODELLING":40,
         "LIGHTING & COMPOSITION":70,
         "ANIMATION":85
     },
-    'WEB DEVELOPMENT':{
-        "HTML":70,
-        "CSS":60,
-        "JAVASCRIPT":30
+    'OTHER':{
+        "VIDEO EDITING":75,
+        "UI/UX DESIGN":80,
+        "GAME | VR  DEVELOPMENT":70
     },
-    'VIDEO':{
-        "EDITING":50,
-        "MOTION GRAPHICS":85,
-        "VFX":40
-    },
-    'OTHER SKILLS':{
-        "UI/UX DESIGN":60,
-        "GAME DESIGN":80,
-        "DSA":40
-    }
 }
 let skillCount = 1;
 function AddSkillModule(title,progressObj)
