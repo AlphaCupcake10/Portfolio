@@ -171,14 +171,7 @@ a
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 0rem 10rem;
-}
-@media(max-width:1024px)
-{
-    .cards-container
-    {
-        padding: 0rem 0rem;
-    }
+    /* padding: 0rem 10rem; */
 }
 .card
 {
