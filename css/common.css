@@ -192,7 +192,7 @@ a
     padding: 3rem;
     overflow: hidden;
 
-    flex-grow: 1;
+    /* flex-grow: 1; */
 }
 .card.h-32
 {
