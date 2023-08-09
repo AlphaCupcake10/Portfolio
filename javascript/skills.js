@@ -1,23 +1,23 @@
 const allSkills = 
 {
     'LIBRARIES & FRAMEWORKS':{
-        "REACT":50,
-        "REACT THREE FIBER | THREEJS":70,
+        "REACT":30,
+        "REACT THREE FIBER | THREEJS":55,
         "TAILWIND CSS":80
     },
     'DESIGN':{
-        "CSS":80,
-        "TYPOGRAGPY":80,
-        "COLOR THEORY":90
+        "CSS":70,
+        "UI | UX":60,
+        "GRAPHIC DESIGN":80
     },
     "3D DESIGN":{
-        "3D MODELLING":40,
+        "3D MODELLING":50,
         "LIGHTING & COMPOSITION":70,
         "ANIMATION":85
     },
     'OTHER':{
-        "VIDEO EDITING":75,
-        "UI/UX DESIGN":80,
+        "VIDEO EDITING":50,
+        "MOTION GRAPHICS":75,
         "GAME | VR  DEVELOPMENT":70
     },
 }
